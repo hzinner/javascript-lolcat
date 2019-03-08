@@ -96,7 +96,7 @@ var partyEvent = function()
   else {
     isPartyTime = false;
     time = new Date().getHours();
-    partyTimeButton.innerText = "Part Time!";
+    partyTimeButton.innerText = "Party Time!";
     document.body.button.background = "#222";
   }
 };
